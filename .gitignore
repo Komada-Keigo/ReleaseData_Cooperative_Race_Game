@@ -1,0 +1,6 @@
+# ビルド結果
+bin/
+obj/
+
+# Visual Studio の設定ファイル
+.vs/
