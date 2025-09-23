@@ -8,13 +8,13 @@ namespace Cooperative_Race_Game.Asset.Script
 {
     internal class ReleaseData
     {
-        public string LatestVersion { get; private set; }
-        public string MinimumVersion { get; private set; }
+        public string Version_Max { get; private set; }
+        public string Version_Min { get; private set; }
 
         public ReleaseData(string latestVersion, string minimumVersion)
         {
-            LatestVersion = latestVersion;
-            MinimumVersion = minimumVersion;
+            Version_Max = latestVersion;
+            Version_Min = minimumVersion;
         }
     }
 }
