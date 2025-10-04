@@ -13,12 +13,12 @@ namespace Cooperative_Race_Game.Asset.Script
         public static void Update()
         {
             ReleaseData forDebug = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
-            ReleaseData forIOS = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
+            ReleaseData foriPhone = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
             ReleaseData forAndroid = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
             ReleaseData forUnityRoom = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
 
             updatePublicData("ReleaseData_Debug_1", forDebug);
-            updatePublicData("ReleaseData_IOS_1", forIOS);
+            updatePublicData("ReleaseData_iPhone_1", foriPhone);
             updatePublicData("ReleaseData_Android_1", forAndroid);
             updatePublicData("ReleaseData_UnityRoom_1", forUnityRoom);
         }
