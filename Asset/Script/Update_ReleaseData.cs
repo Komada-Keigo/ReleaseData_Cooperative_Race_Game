@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Cooperative_Race_Game.Asset.Script
 {
@@ -13,7 +12,7 @@ namespace Cooperative_Race_Game.Asset.Script
         public static void Update()
         {
             ReleaseData forDebug = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
-            ReleaseData foriPhone = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
+            ReleaseData foriPhone = new ReleaseData(latestVersion: "0.1.1", minimumVersion: "0.1.0");
             ReleaseData forAndroid = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
             ReleaseData forUnityRoom = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
 
