@@ -15,11 +15,13 @@ namespace Cooperative_Race_Game.Asset.Script
             ReleaseData foriPhone = new ReleaseData(latestVersion: "0.1.2", minimumVersion: "0.1.0");
             ReleaseData forAndroid = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
             ReleaseData forUnityRoom = new ReleaseData(latestVersion: "0.1.0", minimumVersion: "0.1.0");
+            ReleaseData forGCG2025 = new ReleaseData(latestVersion: "0.1.2", minimumVersion: "0.1.0");
 
             updatePublicData("ReleaseData_Debug_1", forDebug);
             updatePublicData("ReleaseData_iPhone_1", foriPhone);
             updatePublicData("ReleaseData_Android_1", forAndroid);
             updatePublicData("ReleaseData_UnityRoom_1", forUnityRoom);
+            updatePublicData("ReleaseData_GCG2025_1", forGCG2025);
         }
 
         static void updatePublicData(string target, ReleaseData data)
